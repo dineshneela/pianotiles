@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "piano-tiles-4th-version",
+    "slug": "snack-1de56029-c061-4e20-8327-42627bc27597",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dineshneela.snack-1de56029-c061-4e20-8327-42627bc27597"
+    },
+    "android": {
+      "package": "com.bookSanta.bookSanta",
+       "versionCode": 1,
+        "adaptiveIcon": 
+        { "foregroundImage": "./assets/adaptive-icon.png",
+           "backgroundColor": "#FFFFFF" }
+      
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
